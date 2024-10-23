@@ -11,3 +11,267 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cartSMW{
+  width:1300px;
+  margin-top:2px;
+  margin-right: 150px;
+}
+
+
+
+.price{
+
+  align-items : center ;
+  height:87px;
+  width:514px;
+  border-bottom:1px solid grey;
+}
+
+.rating{
+
+
+}
+
+
+
+.installment{
+  height: 45px;
+  border-top: 0;
+  font-weight: 650;
+  font-size:20px;
+}
+.installmentOption{
+  font-weight: 400;
+  font-size:20px;
+}
+.receiving{
+
+  font-weight: 650;
+  font-size:20px;
+}
+.receivingOption{
+  font-weight: 400;
+  font-size:20px;
+}
+.receivingCheck{
+  height:150px;
+  align-content: center;
+  width:514px ;
+  border:1px solid black;
+  margin-top:40px;
+
+
+}
+
+
+.authNavBar{
+  margin-top:15px;
+  width: 200px;
+}
+
+
+.cartButton{
+  margin-top:120px;
+ width:105px;
+}
+
+.adminContainer{
+
+}
+.adminAddButton{
+
+  margin-top: 5px;
+}
+.dropdownDevice{
+  margin-top: 5px;
+
+}
+
+.table_basket{
+  margin-top: 20px;
+
+
+}
+
+.form_basket{
+  margin-top: 20px !important
+
+}
+
+.total_basket{
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.cell_basket{
+  text-align: center;
+}
+
+.buy_basket{
+  background-color: #069f25;
+  width: 100%;
+
+}
+.buy_basket:hover{
+  background-color: #10bf10;
+  color: #000000;
+}
+
+.trash{
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.trash:hover{
+  transform: scale(1.10);
+  color: #a54f4f;
+}
+
+.inf_imgs{
+  width:400px;
+  object-fit:cover;
+  margin-left: 140px;
+}
+.inf_imgs2{
+
+  object-fit:cover;
+
+  margin-left: 20px;
+  margin-top: 20px
+}
+.inf_p{
+  padding: 40px;
+}
+.agreement{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.smText{
+  word-break: break-word;
+}
+.faStar{
+  cursor:pointer!important;
+  transition: color 0.3s ease, transform 0.3s ease;
+
+}
+.faStar:hover{
+  color:#ff8753 !important;
+  transform:scale(1.25)}
+
+.welcome_text{
+  margin-top:30px;
+  margin-left:20px
+}
+.cont_card{
+  padding: 10px;
+  margin-left: 70px;
+  width: 700px;
+  height:550px
+}
+.welcome_text_cont{
+
+  margin-top:30px;
+  margin-left:80px
+}
+.cont_section{
+  margin-top:50px
+}
+
+.adm_button{
+  cursor:pointer!important;
+
+}
+
+.Imga_Devs_Item{
+  object-fit:cover;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.type_bar{
+  text-align: center;
+  min-width: 80px!important;
+}
+.type_bar:hover{
+  background-color: #cdcdcd !important;
+  color: #404040 !important;
+}
+
+.brand_bar.active{
+  background-color: #cdcdcd;
+  border-color: #cdcdcd;
+  color: #777777;
+}
+
+.brand_bar:hover{
+  background-color: #cdcdcd;
+  border-color: #cdcdcd;
+  color: black;
+}
+
+.card_Device {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  height: 290px;
+  cursor: pointer;
+  border: 1px solid darkgrey;
+}
+.card_device_adm{
+  width:200px;
+  height:290px
+}
+
+/* .Imga_Devs_Item {
+  margin-bottom: 25px;
+} */
+
+.card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.text-black-50 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.device-name {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.gold{
+  margin-left: 2px;
+  color: #00a2ff;
+}
+
+.gear {
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.gear:hover {
+  transform: scale(1.2);
+  color: #087720;
+}
+
+.trashAlt {
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.trashAlt:hover {
+  transform: scale(1.2);
+  color: #920101;
+}

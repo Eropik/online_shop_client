@@ -1,17 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+// Используйте импорт из react-dom/client
+import { createRoot } from 'react-dom/client';
+
+import React, { createContext } from 'react';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UserStore from "./store/UserStore";
+import DeviceStore from "./store/DeviceStore";
+import BasketStore from "./store/BasketStore";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+export const Context = createContext(null);
+
+// Используйте createRoot из react-dom/client
+const root = createRoot(document.getElementById('root'));
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Context.Provider value={{
+        user: new UserStore(),
+        device: new DeviceStore(),
+        basket: new BasketStore(),
+    }}>
+        <App />
+    </Context.Provider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
